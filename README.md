@@ -1,2 +1,7 @@
 # scribble-analyser
-Analyses scribbly things
+
+Analyses scribbles and applies them to things.
+
+```
+yarn && yarn dev
+```

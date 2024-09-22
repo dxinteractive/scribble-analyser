@@ -1,0 +1,40 @@
+{
+  "name": "scribble-analyser",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build-gh-pages": "tsc && vite build --base=/scribble-analyser/ --mode=deployed",
+    "preview": "vite preview",
+    "pretty": "yarn prettier --write .",
+    "lint": "yarn eslint src",
+    "prep": "yarn"
+  },
+  "dependencies": {
+    "@pixi/webworker": "^7.2.4",
+    "clsx": "^1.1.1",
+    "pixi.js": "^7.2.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "three": "^0.152.2",
+    "two.js": "^0.8.12"
+  },
+  "devDependencies": {
+    "@types/offscreencanvas": "^2019.7.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/three": "^0.152.0",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "2.6.2",
+    "rollup-plugin-string": "^3.0.0",
+    "typescript": "^4.6.3",
+    "vite": "^3.2.4"
+  }
+}
